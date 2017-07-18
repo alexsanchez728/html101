@@ -3,14 +3,28 @@ body {
 	background-color: #c0ffee;
 }
 ul {
+	list-style-type: none;
 	font-size: 2em;
 	list-style: none;
 	margin-top: 0;
 }
 nav {
 	height: 40px;
+    display: flex;
+    justify-content: center;
 	background-color: blanchedalmond;
 }
 li {
+	margin: 1.5em;
+	padding: 2px;
 	display: inline;
+}
+a {
+	color: tomato	;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #ff2dba;
+	color: white;
+	transition-duration: 0.7s;
 }
