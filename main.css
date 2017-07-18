@@ -28,3 +28,15 @@ a:hover {
 	color: white;
 	transition-duration: 0.7s;
 }
+img {
+	max-width: 200px
+}
+table, th, td {
+	border: 2px solid black;
+}
+table {
+	margin: 0 auto;
+}
+.center-text {
+	text-align: center;
+}
