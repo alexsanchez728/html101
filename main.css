@@ -10,8 +10,8 @@ ul {
 }
 nav {
 	height: 40px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 	background-color: blanchedalmond;
 }
 li {
@@ -20,7 +20,7 @@ li {
 	display: inline;
 }
 a {
-	color: tomato	;
+	color: tomato;
 	text-decoration: none;
 }
 a:hover {
@@ -33,6 +33,7 @@ img {
 }
 table, th, td {
 	border: 2px solid black;
+	text-align: center;
 }
 table {
 	margin: 0 auto;
@@ -40,9 +41,11 @@ table {
 .center-text {
 	text-align: center;
 }
-input {
-	    box-shadow: 10px 10px 5px #888888;
-
+.container {
+	margin-left: 1%;
+	margin-right: 1%;
 }
-
+.unformtunatly {
+	margin-bottom: 2%;
+}
 
